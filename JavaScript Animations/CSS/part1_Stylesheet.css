@@ -1,0 +1,22 @@
+.outer { position: relative; }
+.center-img {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);
+}
+
+#field {
+    width: 900px;
+    height: 600px;
+    position: relative;
+    background: #007d90;
+}
+#rect {
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    background-color: black;
+}

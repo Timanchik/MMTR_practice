@@ -1,0 +1,33 @@
+.rubiksCube {
+    top: 130px;
+    left: 250px;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.rubiksCube div {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    opacity: 0.9;
+}
+
+.face1{
+    transform: translateZ(200px);
+}
+.face2{
+    transform: translateZ(-200px);
+}
+.face3{
+    transform: rotateY(90deg) translateZ(200px);
+}
+.face4{
+    transform: rotateX(-90deg) translateZ(200px);
+}
+.face5{
+    transform: rotateY(90deg) translateZ(-200px);
+}
+.face6{
+    transform: rotateX(90deg) translateZ(200px);
+}
